@@ -22,7 +22,7 @@ li {
 }
 ul.nav {
     display:flex;
-    gap: 163px;
+    gap: 32px;
 }
 section{
     display: flex;
@@ -149,19 +149,42 @@ div.CTA-container{
     justify-content: space-between;
     background-color: #3882F6;
     width: 70%;
+    padding: 20px 40px;
+    align-items: center;
+    border-radius: 10px;
 }
 div.CTA-text-container{
-
+padding: 12px 40px;
+box-sizing: content-box;
 }
 p.CTA-title{
 font-size: 28px;
 color: #F9FAF8;
+margin: 10px 0px;
 
 }
 p.CTA-subtext{
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px 0px;
 }
 button.CTA{
-
+background-color:#3882F6;
+border-color: #E5E7EB;
+border-width: 2px;
+border-style: solid;
+border-radius: 10px;
+font-size: 18px;
+text-align: center;
+flex: none;
+color: #E5E7EB;
+flex-grow: none;
+padding: 5px 20px;
+}
+footer{
+    background-color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+    color: #E5E7EB;
 }
